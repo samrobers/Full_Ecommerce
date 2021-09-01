@@ -5,4 +5,10 @@ const typeDefs = gql`
     name: String
     email: String
   }
+  type Product {
+  
+  }
+  type Query {
+    profiles:[Profile]
+  }
 `;
